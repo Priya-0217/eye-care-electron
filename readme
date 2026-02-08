@@ -2,75 +2,124 @@
 
 Reduce eye strain by filtering blue light and controlling screen brightness. This page explains how to install EyeCare from GitHub Releases (without source code).
 
-## Quick Install (Windows)
+---
 
-1. Go to the repository’s “Releases” page.
+## 📥 Quick Install (Windows)
+
+1. Go to the repository's **Releases** page
 2. Download the latest installer:
-   - eye-care-Setup.exe — recommended
-   - eye-care-Win.zip — portable (no install)
-3. Run `eye-care-Setup.exe` and follow the installer prompts.
-4. Launch “EyeCare” from the Start Menu or Desktop shortcut.
+   - `eye-care-Setup.exe` — recommended
+   - `eye-care-Win.zip` — portable (no install)
+3. Run `eye-care-Setup.exe` and follow the installer prompts
+4. Launch **EyeCare** from the Start Menu or Desktop shortcut
 
 ### Portable ZIP (no install)
-- Unzip `eye-care-Win.zip` to a folder you control (e.g. `C:\Apps\EyeCare`).
-- Double‑click `EyeCare.exe`.
-- To remove, delete the folder.
 
-## System Requirements
+- Unzip `eye-care-Win.zip` to a folder you control (e.g. `C:\Apps\EyeCare`)
+- Double-click `EyeCare.exe`
+- To remove, delete the folder
+
+---
+
+## 💻 System Requirements
 
 - Windows 10 or later
-- 64‑bit OS
+- 64-bit OS
 - Standard user permissions (admin not required for normal use)
 
-## Using EyeCare
+---
 
-- Display page:
-  - Adjust Warmth (color temperature)
-  - Adjust Brightness
-  - Presets: Health, Office, Reading, Game, Movie, Editing, Custom
-- Day/Night:
-  - “Day” sets light mode + bright preset
-  - “Night” sets dark mode + warmer preset
-- Activate:
-  - “Activate” turns on the screen overlay filter
+## 🎯 Using EyeCare
 
-## Keyboard Shortcuts
+### Display Settings
 
-- Ctrl + Alt + F — Toggle overlay filter on/off
-- Ctrl + Alt + D — Open Display page
-- Ctrl + Alt + S — Open Settings page
+![Display Settings](Screenshot_2026-02-08_184720.png)
 
-## Uninstall
+- **Adjust Warmth** (color temperature) — slide from Warm to Cool
+- **Adjust Brightness** — slide from Dimmer to Brighter
+- **Presets**: Health, Office, Reading, Game, Movie, Editing, Custom
+- **Day/Night Toggle**:
+  - "Day" sets light mode + bright preset
+  - "Night" sets dark mode + warmer preset
+- **Activate**: Click "Enable Filter" to turn on the screen overlay filter
 
-- Installed via EXE:
-  - Open “Add or remove programs” (Settings → Apps)
-  - Find “EyeCare” and click Uninstall
-- Portable ZIP:
-  - Close the app and delete the folder
+### Schedule
 
-## Troubleshooting
+![Schedule Settings](Screenshot_2026-02-08_184731.png)
 
-- Overlay not visible:
-  - Press Ctrl + Alt + F to toggle
-  - Ensure no other overlay apps are running
-- Styles look plain:
-  - Restart the app; ensure you downloaded the latest release
-- Antivirus warnings:
-  - The app is packaged with Electron; allow it if flagged
-- App won’t launch:
-  - Reboot Windows, then reinstall the latest release
+- **Automatic Schedule**: Enable filter during evening hours to reduce eye strain
+- **Schedule Settings**:
+  - Set when to enable filter (default: 20:00)
+  - Set when to disable filter (default: 06:00)
+- **Transition Style**:
+  - Gradual — smooth 30-minute transition
+  - Instant — apply immediately
+- **Active Days**: Select which days the schedule should run
 
-## Privacy & Permissions
+### Settings
 
-- EyeCare does not collect or transmit personal data.
-- No special permissions are required; overlay runs on top of the screen only.
+![General Settings](Screenshot_2026-02-08_184751.png)
 
-## Support
+**General Preferences:**
+- Launch at Startup — automatically start EyeCare when you log in
+- Minimize to System Tray — keep app running in background when closed
+- Show Notifications — display system notifications for events
 
-- Open an Issue on GitHub with:
-  - Windows version, EyeCare version (from Releases)
-  - What you tried, and a screenshot if possible
+---
 
-## License
+## ⌨️ Keyboard Shortcuts
+
+| Shortcut | Action |
+|----------|--------|
+| `Ctrl + Alt + F` | Toggle overlay filter on/off |
+| `Ctrl + Alt + D` | Open Display page |
+| `Ctrl + Alt + S` | Open Settings page |
+
+---
+
+## 🗑️ Uninstall
+
+**Installed via EXE:**
+- Open **Add or remove programs** (Settings → Apps)
+- Find **EyeCare** and click Uninstall
+
+**Portable ZIP:**
+- Close the app and delete the folder
+
+---
+
+## 🔧 Troubleshooting
+
+**Overlay not visible:**
+- Press `Ctrl + Alt + F` to toggle
+- Ensure no other overlay apps are running
+
+**Styles look plain:**
+- Restart the app; ensure you downloaded the latest release
+
+**Antivirus warnings:**
+- The app is packaged with Electron; allow it if flagged
+
+**App won't launch:**
+- Reboot Windows, then reinstall the latest release
+
+---
+
+## 🔒 Privacy & Permissions
+
+- EyeCare does not collect or transmit personal data
+- No special permissions are required; overlay runs on top of the screen only
+
+---
+
+## 💬 Support
+
+Open an **Issue** on GitHub with:
+- Windows version, EyeCare version (from Releases)
+- What you tried, and a screenshot if possible
+
+---
+
+## 📄 License
 
 MIT
